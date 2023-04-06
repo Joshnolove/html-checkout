@@ -5,6 +5,7 @@
 header > img {
     width: 200px;
     margin-right: auto;
+
 }
 
 #header {
@@ -13,6 +14,11 @@ header > img {
     justify-content: space-between;
     padding: 5px;
     background-color: #1f2235;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    
 }
 
 .nav-link > a {
@@ -34,3 +40,149 @@ a:hover{
     list-style: none;
     margin: 20px;
 }
+
+body {
+    background-color: ;
+}
+
+#home {
+    background-color: #23263A;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.operation {
+    display: flex;
+    margin-left: 100px;
+}
+
+.ivd {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid #ff4A57;
+    border-radius: 100px;
+     padding: 5px 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ivd:hover {
+    background-color: #ff4A57;
+    transform: rotateX(20deg);
+}
+
+.logo-icon {
+    margin-left: 200px;
+    
+}
+
+.portfolio {
+    background-color: #23263A;
+    color: #fff;
+    border: 2px #ff4A57 solid;
+    font-size: smaller;
+    font-weight: 500;
+    padding: 13px 20px;
+    margin-left: 160px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.elite>h2 {
+    color: #fff;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.elite>p {
+    color: #fff;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.fa{
+    margin-left: 50px;
+    background-color: #ff4A57;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.nolove-img {
+    width: 300px;
+}
+.bright {
+    display:inline-block;
+}
+.elite {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 170px;
+}
+#service {
+    background-color: #1f2235;
+}
+
+.vdf {
+    color: #fd4A57;
+    text-align: center;
+
+}
+
+.ibc {
+    width: 400px;
+    margin: auto;
+
+
+}
+
+.mango {
+    background-color:  #fd4A57;
+    padding:2px ;
+    width: 50px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Cos {
+    width: 300px;
+    background-color: #23263A;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+.Cos:hover {
+    background-color: #fd4A57;
+    
+}
+
+.store {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 50px;
+    padding: 50px 100px;
+}
+
+.kando {
+    color: #fff;
+    text-align: center;
+}
+
+.six  {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+
+
+}
+
+.sam {
+    width: 40px;
+}
+
+
+
